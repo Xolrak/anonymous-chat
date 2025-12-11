@@ -45,7 +45,9 @@
 
     function main() {
         session_start();
-
+        define("PAGINA_PRUEBA", "Location: success.html");
+        define("ADMIN_PANEL","Location: admin_panel.php");
+        define("CHAT_PANEL", "Location: chat.php");
         $error = "";
 
         if (checkPost()) {
@@ -55,10 +57,10 @@
             if ($resultado['login']) {
                 saveSession($resultado['username'], $resultado['is_admin']);
                 if ($resultado['is_admin']) {
-                    header("Location: admin_panel.php");
+                    header(ADMIN_PANEL);
                     exit;
                 } else {
-                    header("Location: chat.php");
+                    header(CHAT_PANEL);
                     exit;
                 }
             } else {
@@ -75,6 +77,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/sign_in.css">
     <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="../css/sign_in.css">
 </head>
 <body>
     <div id="formulario-inicio-sesion">
