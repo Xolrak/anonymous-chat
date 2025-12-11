@@ -1,3 +1,11 @@
+-- ========================================================
+-- Filename: database.sql
+-- Version : 0.1
+-- Author  : Carlos Castañeda
+-- Date    : 11 / 12 / 2025
+-- Details : Only have the Sign in for the app
+-- ========================================================
+
 CREATE DATABASE IF NOT EXISTS complaints_chat
     DEFAULT CHARACTER SET utf8mb4
     COLLATE utf8mb4_unicode_ci;

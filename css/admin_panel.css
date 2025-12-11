@@ -1,0 +1,21 @@
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Centra verticalmente */
+    align-items: center;      /* Centra horizontalmente */
+}
+
+h1 {
+    margin-bottom: 22px;
+    color: #333;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 350px;
+    width: 100%;
+}
