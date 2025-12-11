@@ -1,12 +1,12 @@
 # anonymous-chat
 
-Propósito
----------
-Anonymous-chat es un sistema de chat pensado para permitir comunicaciones anónimas entre usuarios y administradores. La primera motivación es facilitar denuncias u otras comunicaciones sensibles sin que la identidad del remitente sea revelada.
+Purpose
+-------
+Anonymous-chat is a chat system designed to enable anonymous communication between users and administrators. The primary motivation is to facilitate reports or other sensitive communications without revealing the sender’s identity.
 
-Objetivos
----------
-- Mensajería anonima entre usuario y administrador (se preserva la identidad del usuario).
-- Sistema de acceso que redirige según el rol:
-  - Administrador => panel de administración (listado de chats asignados).
-  - Usuario => su chat con el/los administradores o la opción de crear un nuevo chat.
+Objectives
+----------
+- Anonymous messaging between user and administrator (the user’s identity is preserved).
+- An access system that redirects based on the user’s role:
+  - Administrator => administration panel (list of assigned chats).
+  - User => their chat with the administrator(s) or the option to create a new chat.
